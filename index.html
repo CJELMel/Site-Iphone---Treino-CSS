@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Apple - CSS</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search,shopping_bag" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="aviso-quadrado" id="aviso">
+        <p>⚠️ Este site é apenas um projeto de estudo de Design.<br>Não é o site oficial da Apple.</p>
+        <button id="fechar-aviso">✖</button>
+    </div>
+
+
+    <header>
+        <div class="abas_container"> <button> <img src="747.png" alt="logo apple"> </button>
+            <p>Loja</p>
+            <p>Mac</p>
+            <p>iPad</p>
+            <p>iPhone</p>
+            <p>Whatch</p>
+            <p>AirPods</p>
+            <p>TV e Casa</p>
+            <p>Entreterimento</p>
+            <p>Acessórios</p>
+            <p>Suporte</p> <span class="material-symbols-outlined">search</span> <span
+                class="material-symbols-outlined">shopping_bag</span>
+        </div>
+    </header>
+    <main>
+        <div class="content1">
+            <h1>iPhone</h1>
+            <p>Conheça a familia iPhone16.</p>
+            <div class="buttons_container"> <button class="Saiba_mais">Saiba mais</button> <button
+                    class="Comprar">Comprar</button> </div>
+            <p class="gradient-text"> Feito para <strong>Apple Intelligence.</strong> </p> <a>A Apple&nbsp;Intelligence
+                já está disponível em&nbsp;português do Brasil<sup>◊</sup></a>
+            <div class="img-container"> <img class="iphone-family" src="hero_iphone_family__fuz5j2v5xx6y_medium.jpg">
+            </div>
+        </div>
+    </main>
+    <main>
+        <div class="content2">
+            <h1>MacBook Air</h1> <a>Tudo azul.</a> <a>Na cor e no desempenho do M4.</a>
+            <div class="buttons_container2"> <button class="Saiba_mais">Saiba mais</button> <button
+                    class="Comprar">Comprar</button> </div>
+            <div class="img-container2"> <img class="mac-family" src="hero_macbook_air_avail__fpm99qgohx2e_medium.jpg">
+            </div>
+            <div class="subtexto">
+                <p class="gradient-text"> Feito para <strong>Apple Intelligence.</strong> </p> <a>A
+                    Apple&nbsp;Intelligence
+                    já está disponível em&nbsp;português do Brasil<sup>◊</sup></a>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script>
+    document.getElementById("fechar-aviso").addEventListener("click", function () {
+        document.getElementById("aviso").style.display = "none";
+    });
+</script>
+
+
+</html>
